@@ -1,5 +1,6 @@
 package com.example.midpoint;
 
+
 import com.google.android.gms.maps.model.LatLng;
 
 public class Point {
@@ -46,7 +47,6 @@ public class Point {
         }
         return false;
     }
-
     public double getX(){
         return x;
     }
@@ -56,6 +56,4 @@ public class Point {
     }
 
     public LatLng getposition(){return new LatLng(x,y);}
-
 }
-

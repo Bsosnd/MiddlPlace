@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/middle_layout"
+    tools:context=".MiddlePlaceActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:id="@+id/img_gif"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:visibility="gone"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        tools:context=".DirectionActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <LinearLayout
+        android:id="@+id/midpoint_select"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical"
+        android:visibility="gone">
+    </LinearLayout>
+
+</LinearLayout>
+

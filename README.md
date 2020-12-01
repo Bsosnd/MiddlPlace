@@ -9,7 +9,7 @@
 <br/>  
 ** 중간지점을 찾는데 걸리는 시간이 있기 때문에 로딩화면을 추가하였다. (Task 사용)
 <br/>  
-<img src="https://user-images.githubusercontent.com/48446896/100689359-a8e4af80-33c7-11eb-8d9a-5383018d232a.jpeg" width="70%" height="70%"></img>
+<img src="https://user-images.githubusercontent.com/48446896/100689359-a8e4af80-33c7-11eb-8d9a-5383018d232a.jpeg" width="30%" height="20%"></img>
 <img src = "https://user-images.githubusercontent.com/48446896/100689365-abdfa000-33c7-11eb-945f-7f4f7c5c8f2d.jpeg" width="30%" height="20%"></img>
 
 <br/><br/>

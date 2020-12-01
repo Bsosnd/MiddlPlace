@@ -1,6 +1,19 @@
 # MidPoint
 
 
+## 중간지점 알고리즘 ## 
+1. 유저들의 주소지를 이용해서 같은 도끼리 클러스터로 묶는다. (경기도, 강원도, 충청도..)
+2. 각 클러스터의 센트로이드를 무게중심으로 구한다.
+3. 클러스터의 센트로이드들의 중심을 시간가중치를 이용해서 구한다.(사용자들의 중간지점까지의 평균 이동시간을 줄이도록 하였다.)<br/>  
+   ** 이때 시간가중치는 이동시간을 사용하였고 이동시간은 구글 direction api를 이용해 parsing하여 가져왔다.
+<br/>  
+** 중간지점을 찾는데 걸리는 시간이 있기 때문에 로딩화면을 추가하였다. (Task 사용)
+<br/>  
+<img src="https://user-images.githubusercontent.com/48446896/100689359-a8e4af80-33c7-11eb-8d9a-5383018d232a.jpeg" width="70%" height="70%"></img>
+<img src = "https://user-images.githubusercontent.com/48446896/100689365-abdfa000-33c7-11eb-945f-7f4f7c5c8f2d.jpeg" width="30%" height="20%"></img>
+
+<br/><br/>
+
 <br/><br/>
 * 은아,윤지언니 코드 합침<br/>  
 * 아직 그라함에서 무게중심 구하는 건 안들어가있음
